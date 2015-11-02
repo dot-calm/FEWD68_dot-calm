@@ -77,3 +77,33 @@ footer section {
   margin: 0 1.5% 10px 1.5%;
   height: 50px;
 }
+
+div.lines:hover {
+  background-color: red;
+}
+
+/*MOBILE RESPONSIVE*/
+
+@media (max-width: 768px) {
+
+
+  header nav .lines {
+    display:block;
+  }
+
+  header ul {
+    display: none;
+  } 
+
+  div.asides aside {
+    width: 98%;
+    height: 50px;
+  }
+
+  footer section {
+    width: 97%;
+  }
+
+
+
+}
